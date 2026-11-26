@@ -31,7 +31,11 @@ The documentation will include screenshots showing:
 
 If you modify the matched thread arrangement, verify the resulting mating geometry and fit. A future improvement may make the thread parameters more clearly centralized or spreadsheet-driven, but that is not part of the current v0.1 workflow.
 
-A link to the MangoJelly Solutions tutorial explaining this thread method will be added when the exact video reference is confirmed.
+### Thread tutorial and credit
+
+The thread method used for this design was learned from MangoJelly Solutions. Thank you for sharing the tutorial and teaching this FreeCAD thread-making method:
+
+[FreeCAD thread tutorial by MangoJelly Solutions](https://youtu.be/Gd9F6gplsL4?is=k5Ef_MmIAr0k89dl)
 
 ### Sketch constraints and linked dimensions
 
