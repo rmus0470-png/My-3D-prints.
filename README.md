@@ -14,7 +14,24 @@ Where possible, the editable FreeCAD source will be provided alongside the print
 
 I am preparing a companion write-up for the eventual Printables upload. It will explain how the model is constructed and how to make common changes in FreeCAD.
 
-The guide will include annotated screenshots showing exactly which sketch, constraint, or feature to open and what to change. The notes will be developed alongside the model so that the instructions match the actual v0.1 file.
+The guide will include annotated screenshots showing exactly which sketch, constraint, or feature to open and what to change. Images will be linked from the documentation rather than embedded as separate copies, so replacing an image file in the repository can update the displayed image in the guide.
+
+### Matched thread geometry
+
+The two opposing thread sketches are **Sketch001** and **Sketch003**. In this v0.1 model, changing **Sketch001 automatically updates Sketch003** so the opposing thread geometry remains matched.
+
+The thread geometry, spacing, and mating arrangement are intended to work together so the assembled parts fit and clamp correctly. These are not independent settings to casually change on only one side.
+
+The documentation will include screenshots showing:
+
+- The thread spacing and dimensions.
+- The Helix settings used to create the thread.
+- The actual finished thread geometry.
+- Which sketch controls the opposing thread arrangement.
+
+If you modify the matched thread arrangement, verify the resulting mating geometry and fit. A future improvement may make the thread parameters more clearly centralized or spreadsheet-driven, but that is not part of the current v0.1 workflow.
+
+A link to the MangoJelly Solutions tutorial explaining this thread method will be added when the exact video reference is confirmed.
 
 ### Sketch constraints and linked dimensions
 
@@ -37,7 +54,7 @@ As the project is prepared for release, this repository is intended to contain:
 
 - The editable FreeCAD source file.
 - STL or 3MF files for users who only want to print the parts.
-- Annotated screenshots of important sketches and settings.
+- Linked/annotated screenshots of important sketches and settings.
 - A step-by-step modification guide for common adjustments.
 - Version notes describing changes and known limitations.
 
